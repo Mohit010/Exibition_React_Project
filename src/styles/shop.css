@@ -397,7 +397,7 @@ footer{
     background-color: var(--baltic-sea);
 }
 .footer-banner{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/footer-banner.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/footer-banner.jpg) center/cover no-repeat;
     padding: 3rem 0;
 }
 .footer-banner{

@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Add To Cart - Furniture</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+import React from 'react'
+// import "../styles/shop.css"
+import img2 from "../assets/banner-img.png"
 
-   
+const Shopping = () => {
+  return (
+    <>
     <header>
       <div class = "container">
       
@@ -60,7 +53,7 @@
           </div>
 
           <div class = "banner-img">
-            <img src = "images/banner-img.png" alt = "furniture banner image">
+            <img src = {img2} alt = ""/>
           </div>
         </div>
        
@@ -70,9 +63,10 @@
 
 
     <section class = "products">
-      <div class = "container">
+      <div class = "container"></div>
         <h2>Our Products</h2>
-        <div class = "product-list">
+        <div class = "product-list"></div>
+        </section>
          
     <footer>
       <div class = "footer-banner">
@@ -105,5 +99,8 @@
     </footer>
 
     <script src="shop.js"></script>
-  </body>
-</html>
+    </>
+  )
+}
+
+export default Shopping
